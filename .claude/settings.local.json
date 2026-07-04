@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(taskkill //F //IM node.exe //FI \"WINDOWTITLE eq *server.js*\")",
+      "Bash(node server.js)",
+      "Bash(curl -s http://localhost:3000/)"
+    ]
+  }
+}
